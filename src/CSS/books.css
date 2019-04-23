@@ -5,7 +5,8 @@
 .card{
     width: 240px;
     height: 300px;
-    /* margin-bottom: 5px; */
+    margin-bottom: 5px;
+    display: inline-block;
 }
 .Book-cover{
     height: 300px;
@@ -14,7 +15,8 @@
 
 .Book{
     display: inline-block;
-    /* height: 360px;
+    height: 360px;
     width: 240px;
-    text-align: center; */
+    text-align: center;
 }
+

@@ -7,9 +7,9 @@ class Book extends Component{
         this.props = props;
         this.state = {
             read: false,
-
         }
     }
+
     render(){
         return (
             <div className= 'Book'>
@@ -18,15 +18,22 @@ class Book extends Component{
                         <img className="Book-cover" src={require(`../${this.props.image}`)}></img>
                     </div>
                 </div>
-                <input type='button' value='read this book' ></input>
+                <button type='button' onClick={this.handleClick.bind(this)}>Read This Book</button>
             </div>
         )
     }
+
     read() {
         this.setState( {
             read: true,
         });
     }
+
+    handleClick() {
+        this.read();
+    }
+
+
 }
 
 export default Book;
