@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import BookShelf from './components/bookShelf';
+import BookShelf from './Components/BookShelf';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(<BookShelf />, document.getElementById('root'));
 
