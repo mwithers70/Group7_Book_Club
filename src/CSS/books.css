@@ -1,1 +1,12 @@
-.class red
+.card-view{
+    margin:  1rem 15px 0;
+    border: solid #f7f7f9;
+}
+.card{
+width: 240px;
+height: 360px;
+}
+.Book-cover{
+height: 300px;
+width:200px;
+}
