@@ -1,31 +1,26 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+import propTypes from 'prop-types';
 import '../css/books.css';
-import data from './data';
 
-
-class books extends Component {
-    constructor() {
+class Books extends Component{
+    constructor(){
         super();
     }
-
-    render() {
+    render(){
         return (
-            <div>
-                <div className="div-books">
-                <div className="row" >
-                <Book title = "Book Author" body="Name of Author" />
-                <Book title= "Book Title" body="Title of Book" />
-                <Book title="Book Year" body="Publication Year" />
-                <Book title = "Book Author" body="Name of Author"/>
-                <Book title = "Book Genre" body="Genre of Book"/>
-
-                </div>
-                </div>
-                <div>
-                    {/* <button className = "btn btn-success add-button">Add</button> */}
-                </div>
+            <div className="card text-white bg-secondary mb-3">
+            <div className="card-body">
+            <img className="Book-cover" src="https://images-na.ssl-images-amazon.com/images/I/51tTOOrLPFL._SX329_BO1,204,203,200_.jpg"></img>
             </div>
-        )
+          </div>
+        );
     }
 }
-export default data;
+Books.defaultProps= {
+    title: "A Cool Title",
+    body: "A Cool Body",
+};
+Books.propTypes= {
+    title: propTypes.string
+};
+export default Books;
