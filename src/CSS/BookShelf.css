@@ -1,10 +1,9 @@
 .title{text-align: center;
 color:white;
-font-family: fantasy;
-}
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
 .row{
    text-align: center;
-        width: 1130px;
+        width: 1150px;
         height: 380px;
         overflow-x: scroll;
         overflow-y: hidden;
@@ -14,13 +13,10 @@ font-family: fantasy;
 }
 .card-logo{
         text-align: center;
-        background-image: black;
-        height: 130px;
+        height: 300px;
         width: cover;
 }
 .logo{
-        color: white;
-        font-family: cursive;
         animation-duration: 15s;
         animation-name: fadein;
         animation-fill-mode: forwards;
@@ -36,6 +32,4 @@ font-family: fantasy;
             opacity:1;
         }
      }
-     .card{
-        background-image: linear-gradient(to right, grey , black) 
-     }
+     
