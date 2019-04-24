@@ -14,11 +14,15 @@ class BookShelf extends Component {
     }
 
     render() {
-        return (this.state.books.map( book => {
-            console.log(book);
-            return (<Book title={book.title} author={book.author} year={book.year} 
-                genre={book.genre} image={book.image}/>)
-        }))
+        return (
+            <div id='BookShelf'>
+                {this.state.books.map( book => {
+                    return (<Book title={book.title} author={book.author} year={book.year} 
+                        genre={book.genre} image={book.image}/>)
+                })}
+                <button type='button'>Add a Book to the Shelf!</button>
+            </div>
+        )
     }
 }
 
