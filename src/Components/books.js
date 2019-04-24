@@ -1,26 +1,46 @@
-import React, {Component} from 'react';
-import propTypes from 'prop-types';
+import React, { Component } from 'react';
 import '../CSS/books.css';
 
-class Books extends Component{
-    constructor(){
-        super();
+class Book extends Component {
+    constructor(props) {
+        super(props);
+        this.props = props;
+        this.state = {
+            read: false,
+
+        }
     }
-    render(){
+
+
+    render() {
         return (
-            <div className="card text-white bg-secondary mb-3">
-            <div className="card-body">
-            <img className="Book-cover" src="https://images-na.ssl-images-amazon.com/images/I/51tTOOrLPFL._SX329_BO1,204,203,200_.jpg"></img>
+            <div className="col-sm-4">
+            <input type="checkbox" id={this.props.title} />
+              <label for={this.props.title}><img src={require(`../../${this.props.image}`)} alt="Avatar" className="image"></img>
+            <div className="middle">
+                <div className="text">
+                    <p>Title: {this.props.title}</p>
+                    <p>Author: {this.props.author}</p>
+                    <p>Year: {this.props.year}</p>
+                    <p>Genre: {this.props.genre}</p>
+                    <button className='btn btn-warning' onClick={this.handleClick.bind(this)}>Edit Book Info</button>
+                    <button className='btn btn-danger'  onClick={this.handleClick.bind(this)}>Delete Book</button>
+                </div>
             </div>
-          </div>
-        );
+            </label>
+               </div> 
+        )
     }
+    read() {
+        this.setState({
+            read: true
+            
+        });
+    }
+    handleClick() {
+        this.read();
+    }
+    
 }
-Books.defaultProps= {
-    title: "A Cool Title",
-    body: "A Cool Body",
-};
-Books.propTypes= {
-    title: propTypes.string
-};
-export default Books;
+export default Book;
+

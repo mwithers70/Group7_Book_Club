@@ -1,0 +1,40 @@
+.title{text-align: center;
+color:white;
+font-family: fantasy;
+}
+.row{
+   text-align: center;
+        width: 1130px;
+        height: 380px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        margin: 0 auto;
+        white-space: nowrap;
+      
+}
+.navbar{
+        background-image: linear-gradient(to right, grey , black);
+        height: 90px;
+        width: cover;
+}
+.navbar-brand{
+        color: white;
+        font-family: cursive;
+        animation-duration: 15s;
+        animation-name: fadein;
+        animation-fill-mode: forwards;
+        animation-delay: 3s;
+        overflow: hidden;
+        animation-iteration-count: infinite;
+     }
+     @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+     }
+     .card{
+        background-image: linear-gradient(to right, grey , black) 
+     }
