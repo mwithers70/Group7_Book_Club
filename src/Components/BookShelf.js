@@ -18,12 +18,9 @@ class BookShelf extends Component {
 
         return (
             <div class="container">
-<nav class="navbar fixed-top text-light bg-dark" >
-  <a class="navbar-brand -light">
-    <img src="https://www.glbthotline.org/uploads/5/1/3/0/51304353/booklistnew_1_orig.png" width="40" height="30" class="d-inline-block align-top" alt=""></img>
-    Books-A-Mania
-  </a>
-</nav>
+<div class='card-logo '>
+    <img src="https://files.slack.com/files-pri/TH2CJVD6H-FHZA8234H/g7bc.png" heightt="200px" width="200px" className="logo" alt=""></img>
+  </div>
              <div class="row flex-row flex-nowrap">
                 {this.state.Classicbooks.map(book => (
                     <Book

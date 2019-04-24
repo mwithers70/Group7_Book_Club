@@ -12,12 +12,13 @@ font-family: fantasy;
         white-space: nowrap;
       
 }
-.navbar{
-        background-image: linear-gradient(to right, grey , black);
-        height: 90px;
+.card-logo{
+        text-align: center;
+        background-image: black;
+        height: 130px;
         width: cover;
 }
-.navbar-brand{
+.logo{
         color: white;
         font-family: cursive;
         animation-duration: 15s;
