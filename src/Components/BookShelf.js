@@ -21,7 +21,7 @@ class BookShelf extends Component {
 <div class='card-logo '>
     <img src="https://files.slack.com/files-pri/TH2CJVD6H-FHZA8234H/g7bc.png" heightt="400px" width="400px" className="logo" alt=""></img>
   </div>
-             <div class="row flex-row flex-nowrap">
+             <div class="row flex-row flex-nowrap" id="style-7">
                 {this.state.Classicbooks.map(book => (
                     <Book
                         title={book.title}
@@ -36,7 +36,7 @@ class BookShelf extends Component {
   <div class="card-header"><h2 class="title">CLASSIC</h2></div>
   <br></br>
   <br></br>
-            <div class="row flex-row flex-nowrap">
+            <div class="row flex-row flex-nowrap" id="style-7">
                 {this.state.ScienceFictionBooks.map(book => (
                     <Book
                         title={book.title}
@@ -51,7 +51,7 @@ class BookShelf extends Component {
   <div class="card-header"><h2 class="title">SCIENCE FICTION</h2></div>
   <br></br>
   <br></br>
-            <div class="row flex-row flex-nowrap">
+            <div class="row flex-row flex-nowrap" id="style-7">
                 {this.state.YoungAdultBooks.map(book => (
                     <Book
                         title={book.title}
