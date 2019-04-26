@@ -112,7 +112,7 @@ class NewBooks extends Component {
                     <p>Genre: {genreElement}</p>
                      {buttonArea}
                     <div>
-                    <Link to={{pathname:'/BookInfo', state:{title:this.props.title,image: this.props.image,author:this.props.author,year:this.props.year,genre:this.props.genre,summary:this.props.summary}}}>
+                    <Link to={{pathname:'/BookInfo', state:{title:this.state.title,image: this.props.image,author:this.state.author,year:this.state.year,genre:this.state.genre,summary:this.props.summary}}}>
                     More Info
                     </Link>
                     </div>
@@ -127,10 +127,10 @@ class NewBooks extends Component {
 var i= 15;
 
 NewBooks.defaultProps = {
-    title:"Cool Title",
-    author:"Awesome Author",
-    year:"The Best Year",
-    genre:"The Only Genre",
+    title:"",
+    author:"",
+    year:"",
+    genre:"",
     image:"https://edgeplay.files.wordpress.com/2011/05/classic_red_book_cover_by_semireal_stock.jpg",
     summary:'What is there to say this book is awesome!!!',
     id:i++
