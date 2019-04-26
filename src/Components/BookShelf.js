@@ -8,16 +8,27 @@ import NewBooks from './NewBooks';
 class BookShelf extends Component {
     constructor(props) {
         super(props);
-   
         this.state = {
             Classicbooks: books.Classicbooks,
             ScienceFictionBooks: books.ScienceFictionBooks,
             YoungAdultBooks: books.YoungAdultBooks,
             books: [],
-            
         }
     }
-    
+    handleEdit() {
+        this.setState({
+            editMode: true
+        });
+    }
+    handleSave() {
+        this.setState({
+            title: this.refs.titleContent.value,
+            author: this.refs.authorContent.value,
+            year: this.refs.yearContent.value,
+            genre: this.refs.genreContent.value,
+            editMode: false
+        });
+    }
     deleteBook(id) {
         for (let key in this.state) {
             let books = this.state[key];
@@ -33,7 +44,82 @@ class BookShelf extends Component {
             books: this.state.books
         });
     }
-    
+    render() {
+        let titleElement, authorElement, yearElement, genreElement, buttonArea;
+        if (this.state.editMode) {
+            titleElement = (
+                <textarea
+                    ref="titleContent"
+                    className="title-textarea"
+                    defaultValue={this.state.title}
+                />
+            );
+            authorElement = (
+                <textarea
+                    ref="authorContent"
+                    className="author-textarea"
+                    defaultValue={this.state.author}
+                />
+            );
+            yearElement = (
+                <textarea
+                    ref='yearContent'
+                    className="title-textarea"
+                    defaultValue={this.state.year}
+                />
+            );
+            genreElement = (
+                <textarea
+                    ref="genreContent"
+                    className="genre-textarea"
+                    defaultValue={this.state.genre}
+                />
+            )
+            buttonArea = (
+                <div>
+                    <button className="btn btn-info" onClick={this.handleSave.bind(this)}>
+                        Save
+              </button>
+                </div>
+            );
+        } else {
+            titleElement = <h5>{this.state.title}</h5>;
+            authorElement = <p>{this.state.author}</p>
+            yearElement = <p>{this.state.year}</p>
+            genreElement = <p>{this.state.genre}</p>
+                ;
+            buttonArea = (
+                <div>
+                    <button
+                        className="btn btn-warning"
+                        onClick={this.handleEdit.bind(this.state)}
+                    >
+                        Edit
+          </button>
+                    <button
+                        className="btn btn-danger"
+                        onClick={this.handleDelete.bind(this)}
+                    >
+                        Delete
+          </button>
+                </div>
+            );
+        }
+        return (
+            <div className="col-sm-6">
+                <div className="card card-view">
+                    <div className="card-body">
+                        {titleElement}
+                        {authorElement}
+                        {yearElement}
+                        {genreElement}
+                        {buttonArea}
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
     render() {
         return (
             <div class="container">

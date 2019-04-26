@@ -6,7 +6,6 @@ import {Link} from 'react-router-dom';
 class Book extends Component {
     constructor(props) {
         super(props);
-        this.props = props;
         this.state = {
             read: false,
             editMode:false,
@@ -111,7 +110,7 @@ class Book extends Component {
                     <p>Genre: {genreElement}</p>
                      {buttonArea}
                     <div>
-                    <Link to={{pathname:'/BookInfo', state:{title:this.props.title,image:require(`../../${this.props.image}`),author:this.props.author,year:this.props.year,genre:this.props.genre,summary:this.props.summary }}}>
+                    <Link to={{pathname:'/BookInfo', state:{title:this.state.title,image:require(`../../${this.props.image}`),author:this.state.author,year:this.state.year,genre:this.state.genre,summary:this.props.summary }}}>
                     More Info
                     </Link>
                     </div>
