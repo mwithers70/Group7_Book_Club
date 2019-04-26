@@ -71,6 +71,7 @@ text-shadow: 1px 1px 0 black,
     backface-visibility: hidden; 
     float:center;
     border-style: groove;
+     border-color:lightgreen;
 }
 .words{
     padding-top: 150px;
