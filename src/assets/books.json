@@ -1,0 +1,143 @@
+{
+    "Classicbooks": [
+        {
+            "id": 0,
+            "title": "To Kill A Mockingbird",
+            "author": "Harper Lee",
+            "year": 1960,
+            "genre": "Fiction, Southern Gothic, Classic",
+            "image": "Book-Images/Classics/To-Kill-a-Mockingbird.jpg",
+            "summary": "In To Kill a Mockingbird, author Harper Lee uses memorable characters to explore civil rights and racism in the segregated Southern United States of the 1930s. Told through the eyes of Scout Finch, you learn about her father Atticus Finch, an attorney who hopelessly strives to prove the innocence of a black man unjustly accused of rape; and about Boo Radley, a mysterious neighbor who saves Scout and her brother Jem from being killed."
+        },
+        {
+            "id": 1,
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "year": 1925,
+            "genre": "Fiction, Classic",
+            "image": "Book-Images/Classics/The-Great-Gatsby.jpg",
+            "summary": "The Great Gatsby, F. Scott Fitzgerald’s third book, stands as the supreme achievement of his career. First published in 1925, this quintessential novel of the Jazz Age has been acclaimed by generations of readers. The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan, of lavish parties on Long Island at a time when The New York Times noted “gin was the national drink and sex the national obsession,” it is an exquisitely crafted tale of America in the 1920s."
+        },
+        {
+            "id": 2,
+            "title": "Les Miserables",
+            "author": "Victor Hugo",
+            "year": 1862,
+            "genre": "Fiction, Historical Fiction, Classic",
+            "image": "Book-Images/Classics/Les-Miserables.jpg",
+            "summary": "Les Misérables is French history recounted through the personal stories of its main characters. The tale offers philosophical insight on the good deeds that can happen even amidst ignorance and poverty. This handsome leather-bound volume is a beautiful addition to any classic literature library with specially designed endpapers, gilded edges, and a ribbon bookmark so you will never lose your place."
+        },
+        {
+            "id": 3,
+            "title": "The Sun Also Rises",
+            "author": "Ernest Hemingway",
+            "year": 1926,
+            "genre": "Fiction, Classic",
+            "image": "Book-Images/Classics/The-Sun-Also-Rises.jpg",
+            "summary": "The quintessential novel of the Lost Generation, The Sun Also Rises is one of Ernest Hemingway's masterpieces and a classic example of his spare but powerful writing style. A poignant look at the disillusionment and angst of the post-World War I generation, the novel introduces two of Hemingway's most unforgettable characters: Jake Barnes and Lady Brett Ashley. The story follows the flamboyant Brett and the hapless Jake as they journey from the wild nightlife of 1920s Paris to the brutal bullfighting rings of Spain with a motley group of expatriates. It is an age of moral bankruptcy, spiritual dissolution, unrealized love, and vanishing illusions. First published in 1926, The Sun Also Rises helped to establish Hemingway as one of the greatest writers of the twentieth century."
+        },
+        {
+            "id": 4,
+            "title": "The Brothers Karamazov",
+            "author": "Fyodor Dostoevksy",
+            "year": 1880,
+            "genre": "Fiction, Suspense, Philosophical Fiction",
+            "image": "Book-Images/Classics/The-Brothers_Karamazov.jpg",
+            "summary": "The Brothers Karamasov is a murder mystery, a courtroom drama, and an exploration of erotic rivalry in a series of triangular love affairs involving the “wicked and sentimental” Fyodor Pavlovich Karamazov and his three sons―the impulsive and sensual Dmitri; the coldly rational Ivan; and the healthy, red-cheeked young novice Alyosha. Through the gripping events of their story, Dostoevsky portrays the whole of Russian life, is social and spiritual striving, in what was both the golden age and a tragic turning point in Russian culture."
+        }
+    ],
+    "ScienceFictionBooks": [
+        {
+            "id": 5,
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "year": 1932,
+            "genre": "Science Fiction, Dystopian",
+            "image": "Book-Images/Science-Fiction/Brave-New-World.jpg",
+            "summary": "Aldous Huxley's profoundly important classic of world literature, Brave New World is a searching vision of an unequal, technologically-advanced future where humans are genetically bred, socially indoctrinated, and pharmaceutically anesthetized to passively uphold an authoritarian ruling order–all at the cost of our freedom, full humanity, and perhaps also our souls. “A genius [who] who spent his life decrying the onward march of the Machine” (The New Yorker), Huxley was a man of incomparable talents: equally an artist, a spiritual seeker, and one of history’s keenest observers of human nature and civilization. Brave New World, his masterpiece, has enthralled and terrified millions of readers, and retains its urgent relevance to this day as both a warning to be heeded as we head into tomorrow and as thought-provoking, satisfying work of literature. Written in the shadow of the rise of fascism during the 1930s, Brave New World likewise speaks to a 21st-century world dominated by mass-entertainment, technology, medicine and pharmaceuticals, the arts of persuasion, and the hidden influence of elites. "
+        },
+        {
+            "id": 7,
+            "title": "Ender's Game",
+            "author": "Orson Scott Card",
+            "year": 1985,
+            "genre": "Science Fiction",
+            "image": "Book-Images/Science-Fiction/Enders-Game.jpg",
+            "summary": "In order to develop a secure defense against a hostile alien race's next attack, government agencies breed child geniuses and train them as soldiers. A brilliant young boy, Andrew (Ender) Wiggin lives with his kind but distant parents, his sadistic brother Peter, and the person he loves more than anyone else, his sister Valentine. Peter and Valentine were candidates for the soldier-training program but didn't make the cut--young Ender is the Wiggin drafted to the orbiting Battle School for rigorous military training.Ender's skills make him a leader in school and respected in the Battle Room, where children play at mock battles in zero gravity. Yet growing up in an artificial community of young soldiers, Ender suffers greatly from isolation, rivalry from his peers, pressure from the adult teachers, and an unsettling fear of the alien invaders. His psychological battles include loneliness, fear that he is becoming like the cruel brother he remembers, and fanning the flames of devotion to his beloved sister.Is Ender the general Earth needs? But Ender is not the only result of the genetic experiments. The war with the Buggers has been raging for a hundred years, and the quest for the perfect general has been underway for almost as long. Ender's two older siblings are every bit as unusual as he is, but in very different ways. Between the three of them lie the abilities to remake a world. If the world survives, that is. Winner of the Hugo and Nebula Awards."
+        },
+        {
+            "id": 9,
+            "title": "Fahrenheit 451",
+            "author": "Ray Bradbury",
+            "year": 1953,
+            "genre": "Science Fiction, Dystopian",
+            "image": "Book-Images/Science-Fiction/Fahrenheit-451.jpg",
+            "summary": "Ray Bradbury’s internationally acclaimed novel Fahrenheit 451 is a masterwork of twentieth-century literature set in a bleak, dystopian future. Guy Montag is a fireman. In his world, where television rules and literature is on the brink of extinction, firemen start fires rather than put them out. His job is to destroy the most illegal of commodities, the printed book, along with the houses in which they are hidden. Montag never questions the destruction and ruin his actions produce, returning each day to his bland life and wife, Mildred, who spends all day with her television “family.” But then he meets an eccentric young neighbor, Clarisse, who introduces him to a past where people didn’t live in fear and to a present where one sees the world through the ideas in books instead of the mindless chatter of television. When Mildred attempts suicide and Clarisse suddenly disappears, Montag begins to question everything he has ever known. He starts hiding books in his home, and when his pilfering is discovered, the fireman has to run for his life."
+        },
+        {
+            "id": 8,
+            "title": "Journey To The Center Of The Earth",
+            "author": "Jules Verne",
+            "year": 1864,
+            "genre": "Science Fiction, Adventure",
+            "image": "Book-Images/Science-Fiction/Journey-To-The-Center-Of-The-Earth.jpg",
+            "summary": "Journey to the Center of the Earth is a classic 1864 science fiction novel by Jules Verne. The story involves German professor Otto Lidenbrock who believes there are volcanic tubes going toward the centre of the Earth. He, his nephew Axel, and their guide Hans descend into the Icelandic volcano Snæfellsjökull, encountering many adventures, including prehistoric animals and natural hazards, before eventually coming to the surface again in southern Italy, at the Stromboli volcano."
+        },
+        {
+            "id": 6,
+            "title": "The Hitchhiker's Guide To The Galaxy",
+            "author": "Douglas Adams",
+            "year": 1979,
+            "genre": "Science Fiction, Comedy",
+            "image": "Book-Images/Science-Fiction/The-Hitchhikers-Guide-To-The-Galaxy.jpg",
+            "summary": "Seconds before Earth is demolished to make way for a galactic freeway, Arthur Dent is plucked off the planet by his friend Ford Prefect, a researcher for the revised edition of The Hitchhiker’s Guide to the Galaxy who, for the last fifteen years, has been posing as an out-of-work actor.Together, this dynamic pair began a journey through space aided by a galaxyful of fellow travelers: Zaphod Beeblebrox—the two-headed, three-armed ex-hippie and totally out-to-lunch president of the galaxy; Trillian (formerly Tricia McMillan), Zaphod’s girlfriend, whom Arthur tried to pick up at a cocktail party once upon a time zone; Marvin, a paranoid, brilliant, and chronically depressed robot; and Veet Voojagig, a former graduate student obsessed with the disappearance of all the ballpoint pens he’s bought over the years. Where are these pens? Why are we born? Why do we die? For all the answers, stick your thumb to the stars!"
+        }
+    ],
+    "YoungAdultBooks": [
+        {
+            "id": 12,
+            "title": "Holes",
+            "author": "Louis Sachar",
+            "year": 1998,
+            "genre": "Young Adult, Adventure",
+            "image": "Book-Images/Young-Adult/Holes.jpg",
+            "summary": "Stanley Yelnats is under a curse. A curse that began with his no-good-dirty-rotten-pig-stealing-great-great-grandfather and has since followed generations of Yelnatses. Now Stanley has been unjustly sent to a boys’ detention center, Camp Green Lake, where the boys build character by spending all day, every day digging holes exactly five feet wide and five feet deep. There is no lake at Camp Green Lake. But there are an awful lot of holes. It doesn’t take long for Stanley to realize there’s more than character improvement going on at Camp Green Lake. The boys are digging holes because the warden is looking for something. But what could be buried under a dried-up lake? Stanley tries to dig up the truth in this inventive and darkly humorous tale of crime and punishment—and redemption."
+        },
+        {
+            "id": 10,
+            "title": "The Fault In Our Stars",
+            "author": "John Greene",
+            "year": 2012,
+            "genre": "Young Adult Fiction",
+            "image": "Book-Images/Young-Adult/The-Fault-In-Our-Stars.jpg",
+            "summary": "Despite the tumor-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal, her final chapter inscribed upon diagnosis. But when a gorgeous plot twist named Augustus Waters suddenly appears at Cancer Kid Support Group, Hazel’s story is about to be completely rewritten. Insightful, bold, irreverent, and raw, The Fault in Our Stars brilliantly explores the funny, thrilling, and tragic business of being alive and in love."
+        },
+        {
+            "id": 11,
+            "title": "The Hunger Games",
+            "author": "Suzanne Collins",
+            "year": 2008,
+            "genre": "Young Adult Fiction, Dystopian, Action",
+            "image": "Book-Images/Young-Adult/The-Hunger-Games.jpg",
+            "summary": "In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. Long ago the districts waged war on the Capitol and were defeated. As part of the surrender terms, each district agreed to send one boy and one girl to appear in an annual televised event called, (The Hunger Games), a fight to the death on live TV. Sixteen-year-old Katniss Everdeen, who lives alone with her mother and younger sister, regards it as a death sentence when she is forced to represent her district in the Games. The terrain, rules, and level of audience participation may change but one thing is constant: kill or be killed."
+        },
+        {
+            "id": 14,
+            "title": "The Maze Runner",
+            "author": "James Dashner",
+            "year": 2009,
+            "genre": "Young Adult, Science Fiction, Dystopian",
+            "image": "Book-Images/Young-Adult/The-Maze-Runner.jpg",
+            "summary": "When Thomas wakes up in the lift, the only thing he can remember is his name. He’s surrounded by strangers—boys whose memories are also gone. Outside the towering stone walls that surround them is a limitless, ever-changing maze. It’s the only way out—and no one’s ever made it through alive. Then a girl arrives. The first girl ever. And the message she delivers is terrifying: Remember. Survive. Run."
+        },
+        {
+            "id": 13,
+            "title": "The Notebook",
+            "author": "Nicholas Sparks",
+            "year": 1996,
+            "genre": "Young Adult, Romance",
+            "image": "Book-Images/Young-Adult/The-Notebook.jpg",
+            "summary": "It is a celebration of how passion can be ageless and timeless, a tale that moves us to laughter and tears and makes us believe in true love all over again... At thirty-one, Noah Calhoun, back in coastal North Carolina after World War II, is haunted by images of the girl he lost more than a decade earlier. At twenty-nine, socialite Allie Nelson is about to marry a wealthy lawyer, but she cannot stop thinking about the boy who long ago stole her heart. Thus begins the story of a love so enduring and deep it can turn tragedy into triumph, and may even have the power to create a miracle..."
+        }
+    ]
+}

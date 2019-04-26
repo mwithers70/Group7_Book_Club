@@ -26,6 +26,7 @@ body {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    color:white;
   }
   
   .col-sm-4:hover .image {
@@ -36,7 +37,7 @@ body {
     opacity: 1;
   }
   
-  .text {
+  .texts {
 
     color:white;
     font-size: 16px;
@@ -93,3 +94,6 @@ body {
     box-shadow: 0 0 5px #333;
     z-index: -1;
   }
+.textarea{
+  color:black;
+}

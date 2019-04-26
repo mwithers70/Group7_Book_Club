@@ -1,0 +1,8 @@
+.navbar{
+    background-image: linear-gradient(to right,
+    rgb(23,32,42),
+    rgb(255,125,189),rgb(28,58,148));
+}
+.nav-item{
+    text-align: center;
+}
