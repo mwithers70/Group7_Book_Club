@@ -70,7 +70,7 @@ text-shadow: 1px 1px 0 black,
     transition: .5s ease;
     backface-visibility: hidden; 
     float:center;
-    border-style: groove;
+    border-style: dashed;
      border-color:lightgreen;
 }
 .words{
