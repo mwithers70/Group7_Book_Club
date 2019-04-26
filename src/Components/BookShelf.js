@@ -125,7 +125,7 @@ class BookShelf extends Component {
             <div class="container">
 
                 <div class='card-logo '>
-                    <img src="https://files.slack.com/files-pri/TH2CJVD6H-FHZA8234H/g7bc.png" heightt="400px" width="400px" className="logo" alt=""></img>
+                    <img src={require(`../G7BC.png`)} heightt="400px" width="400px" className="logo" alt=""></img>
                 </div>
 
                 <div class="row flex-row flex-nowrap" id="style-7">
